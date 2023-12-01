@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+
+import './App.css';
+import StartScreen from './components/StartScreen';
+
 
 function App() {
 
 
   return (
     
-      <div>
-<p>Aqui teremos o jogo!</p>
+      <div className="App">
+<StartScreen/>
     </div>
     
   )
